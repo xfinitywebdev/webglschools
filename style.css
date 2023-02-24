@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(to right, skyblue, black);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  #nameplate {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .game-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 19px;
+    width: 300px;
+    height: 100px;
+    background-color: tomato;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    border: 3px solid white;
+  }
+
+  button {
+    background: navy;
+    color: white;
+    font-size: x-large;
+    border: 3px solid white;
+    cursor: pointer;
+  }
+
+  h1 {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid black;
+    border-radius: 28px;
+    width: fit-content;
+    height: fit-content;
+  }
+
